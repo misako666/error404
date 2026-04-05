@@ -1,1 +1,71 @@
-# error404
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soporte Técnico Junior</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white">
+
+  <!-- HEADER -->
+  <header class="text-center py-8 bg-gradient-to-r from-green-400 to-blue-500">
+    <h1 class="text-3xl font-bold">💻 Soporte Técnico Junior</h1>
+    <p class="mt-2">Reparación de computadoras a domicilio</p>
+  </header>
+
+  <!-- SERVICIOS -->
+  <section class="p-6">
+    <h2 class="text-2xl font-bold mb-4">🔧 Servicios</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div class="bg-gray-800 p-4 rounded-2xl shadow">
+        <h3 class="font-bold">Formateo de PC</h3>
+        <p>Windows limpio y optimizado</p>
+      </div>
+      <div class="bg-gray-800 p-4 rounded-2xl shadow">
+        <h3 class="font-bold">Limpieza interna</h3>
+        <p>Eliminación de polvo y mejora de temperatura</p>
+      </div>
+      <div class="bg-gray-800 p-4 rounded-2xl shadow">
+        <h3 class="font-bold">Instalación de programas</h3>
+        <p>Office, antivirus, drivers y más</p>
+      </div>
+      <div class="bg-gray-800 p-4 rounded-2xl shadow">
+        <h3 class="font-bold">Soporte a domicilio</h3>
+        <p>Vamos hasta tu casa</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOTON WHATSAPP -->
+  <div class="text-center my-6">
+    <a href="https://wa.me/51988411506?text=Hola,%20necesito%20soporte%20técnico" 
+       class="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-2xl text-lg font-bold shadow-lg">
+       📲 Contactar por WhatsApp
+    </a>
+  </div>
+
+  <!-- TIENDA (DESHABILITADA) -->
+  <section class="p-6 opacity-50">
+    <h2 class="text-2xl font-bold mb-4">🛒 Productos (Próximamente)</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div class="bg-gray-800 p-4 rounded-2xl">
+        <p class="font-bold">Laptop HP</p>
+        <p>S/ 1200</p>
+        <button disabled class="mt-2 bg-gray-500 px-4 py-2 rounded">Próximamente</button>
+      </div>
+      <div class="bg-gray-800 p-4 rounded-2xl">
+        <p class="font-bold">Disco SSD</p>
+        <p>S/ 150</p>
+        <button disabled class="mt-2 bg-gray-500 px-4 py-2 rounded">Próximamente</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="text-center p-4 text-gray-400">
+    © 2026 Soporte Técnico Junior
+  </footer>
+
+</body>
+</html>
